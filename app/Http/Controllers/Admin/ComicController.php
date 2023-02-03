@@ -118,7 +118,7 @@ class ComicController extends Controller
 
         $comic->delete();
 
-        return redirect()->route("comics.index");
+        return redirect()->route("admin.dashboard");
     }
 
     private function validation($data)
