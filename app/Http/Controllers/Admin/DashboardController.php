@@ -12,6 +12,8 @@ class DashboardController extends Controller
 
         $comics = Comic::all();
 
-        return view("admin.dashboard", compact('comics'));
+        $lastComics = Comic::orderBy("created_at", "DESC")->limit(5)->get();
+
+        return view("admin.dashboard", compact('comics', 'lastComics'));
     }
 }
