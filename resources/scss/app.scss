@@ -1,0 +1,100 @@
+@import '~bootstrap/scss/bootstrap';
+
+// @import 'bootstrap-icons/font/bootstrap-icons';
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+.jumbotron {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: top center;
+    
+    @media (max-width: 768px) {
+        height: 150px;
+    }
+}
+
+.fs-xs {
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
+.my-box {
+    margin-top: -0.7rem;
+    position: absolute;
+}
+
+.img-comic {
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+
+    @media (max-width: 768px) {
+        aspect-ratio: auto 1/1;
+        aspect-ratio: 1/1;
+        max-width: 50%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+
+.row {
+    @media (max-width: 576px) {
+        text-align: center;
+    }
+}
+
+
+.bg-footer{
+    background-image: url(../imgs/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-dc-footer{
+    background-image: url(../imgs/dc-logo-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.position-comic{
+    position: absolute;
+    bottom: 0;
+
+    &>img{
+        @media (max-width: 768px) {
+            height: 130px;
+        }
+    }
+}
+
+.bg-icon-comics{
+    background-color: #F6F6F6;
+}
+
+.container-comics-top{
+    background-color: #0282F9;
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: .7rem;
+}
+
+.container-comics-bottom{
+    background-color: #0282F9;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.body-100vh{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
