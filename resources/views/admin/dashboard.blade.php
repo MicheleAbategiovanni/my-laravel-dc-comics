@@ -1,5 +1,10 @@
 @extends('layouts.app')
 
+@php
+  $title = 'Admin Panel';
+@endphp
+
+@section('title', $title)
 
 @section('content')
 <div class="row justify-content-center">

@@ -1,5 +1,11 @@
 @extends('layouts.app')
 
+@php
+  $title = 'Modifica fumetto';
+@endphp
+
+@section('title', $title)
+
 @section('content')
 <div class="container py-5">
 
