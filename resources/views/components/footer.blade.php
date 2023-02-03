@@ -113,7 +113,7 @@ $shopLinks=["Shop DC","Shop DC Collectbles"];
 
             <!-- Container Button -->
             <div>
-                <button type="button" class="border-primary text-white p-3 bg-dark">SIGN-UP NOW!</button>
+                <a href="{{ route('register') }}" class="btn border-primary text-white p-3 bg-dark">SIGN-UP NOW!</a>
             </div>
 
             <!-- Container Icon Social -->
