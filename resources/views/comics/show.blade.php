@@ -1,5 +1,11 @@
 @extends('layouts.app')
 
+@php
+  $title = $comic->title;
+@endphp
+
+@section('title', $title)
+
 @section('content')
 
 @if (session('status'))

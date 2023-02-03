@@ -10,8 +10,14 @@ $shopLinks=["Shop DC","Shop DC Collectbles"];
 
     <section class="bg-footer">
         <div class="container">
+
             <div class="row">
+
+                {{-- Section for footer link --}}
+
                 <div class="col">
+
+                    {{-- Section for footer link --}}
                     <div class="row row-cols-1 row-cols-lg-3 text-white py-3 gy-4">
 
                         <div class="col">
@@ -101,13 +107,15 @@ $shopLinks=["Shop DC","Shop DC Collectbles"];
 
                     </div>
                 </div>
-                <div class="col bg-dc-footer d-none d-md-flex">
-                    {{-- <img src="{{Vite::asset('resources/imgs/dc-logo-bg.png')}}" class="img-fluid" alt=""> --}}
-                </div>
+
+                <div class="col bg-dc-footer d-none d-md-flex"></div>
+
             </div>
+
         </div>
     </section>
 
+    {{-- Section for sign-up and social icon --}}
     <section class="bg-dark">
         <div class="container d-flex justify-content-between py-4">
 
@@ -161,4 +169,5 @@ $shopLinks=["Shop DC","Shop DC Collectbles"];
 
         </div>
     </section>
+
 </footer>
